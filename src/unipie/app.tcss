@@ -1,0 +1,21 @@
+Screen { background: $background; }
+#workspace { height: 1fr; }
+#library { width: 30; min-width: 24; border-right: solid $primary; padding: 0 1; }
+#search { margin: 0; }
+#glyphs { height: 1fr; }
+#library-count { height: 1; }
+#editor { width: 1fr; padding: 0 1; }
+#details { height: 2; }
+#tool { width: 38; max-width: 100%; }
+#canvas { width: 38; height: 17; padding: 0; margin: 0; }
+#canvas:focus { background: $surface; }
+#hints { height: auto; color: $text-muted; margin-bottom: 1; }
+.buttons { height: auto; min-height: 3; width: 100%; }
+.buttons Button { min-width: 6; width: 1fr; margin-right: 1; }
+#hex { height: auto; margin-top: 1; color: $text-muted; }
+ModalScreen { align: center middle; background: $background 70%; }
+.dialog { width: 72; max-width: 95%; height: auto; max-height: 90%; border: thick $primary; background: $surface; padding: 1 2; }
+.dialog Label { height: auto; margin-bottom: 1; }
+.dialog .heading { text-style: bold; }
+.dialog Input, .dialog Select { width: 100%; margin-bottom: 1; }
+#error { color: $error; }
